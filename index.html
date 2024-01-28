@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitcher VC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('image 1.png'); /* Add your background image URL here */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Prevent background image from wrapping on mobile screens */
+            text-align: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2em;
+        }
+
+        .pitcher-heading {
+            font-size: 8em;
+            font-style: italic;
+            color: white;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .additional-image {
+            width: 5em; /* Adjust the width of the additional image */
+            height: auto;
+            margin-left: 1em; /* Add space between the "pitcher" heading and the additional image */
+        }
+
+        section {
+            margin-top: 2em;
+        }
+
+        a.button {
+            display: inline-block;
+            padding: 2em 4em; /* Increase padding for the button */
+            font-size: 2em; /* Increase font size */
+            background-color: #777777;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 1.5em; /* Add border-radius */
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+        }
+
+        a.button:hover {
+            background-color: #9378d8;
+        }
+
+        .notify-container {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.5);
+            width: 100%;
+        }
+
+        .notify-box {
+            background-color: #fff;
+            padding: 2em;
+            border-radius: 1em;
+            width: 20em;
+        }
+
+        input {
+            padding: 1em;
+            font-size: 1em;
+            margin-bottom: 1em;
+        }
+
+        h2 {
+            color: white;
+            font-size: 4em;
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            a.button {
+                padding: 1.5em 3em;
+                font-size: 1.5em;
+            }
+
+            .notify-box {
+                padding: 1.5em;
+                width: 15em;
+            }
+
+            input {
+                padding: 0.8em;
+                font-size: 0.8em;
+                margin-bottom: 0.8em;
+            }
+
+            .pitcher-heading {
+                font-size: 6em;
+            }
+            
+            h1 {
+                text-shadow: 2px 2px 4px rgb(0,0,0);
+                stroke-width: 2px;
+            }
+
+            h2 {
+                font-size: 3em;
+            }
+
+            img {
+                transform-origin: center center;
+                transform: scaleX(-1) rotate(-5deg);
+                
+            }
+
+            h3 {
+                color: white;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="pitcher-heading">pitcher</h1>
+        <img src="pitcher.png" alt="Additional Image" class="additional-image">
+    </header>
+
+    <h2>vc for everyone</h2>
+
+    <h3>Coming Soon:</h3>
+    
+    <section>
+        <a class="button" href="https://forms.gle/hCdMguTqjcKgabpKA">Notify Me</a>
+    </section>
+
+</body>
+</html>
